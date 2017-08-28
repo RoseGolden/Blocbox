@@ -52,7 +52,7 @@
 /* Media Quieries*/
 @media (min-width: 400px){
   .container .container hero{
-    width: 480px;
+    width: 380px;
   }
 }
 
