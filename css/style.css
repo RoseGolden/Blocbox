@@ -49,6 +49,14 @@
   margin: 0 2% 20px;
 }
 
+/* Media Quieries*/
+
+@media screen and (max-width: 479px) {
+    .container {
+      width: 459px;
+    }
+}
+
 @@media (min-width: 768px) {
   .container {
     width: 750px;
