@@ -50,14 +50,13 @@
 }
 
 /* Media Quieries*/
-
-@media screen and (max-width: 479px) {
-    .container {
-      width: 459px;
-    }
+@media (min-width: 400px){
+  .container .container hero{
+    width: 480px;
+  }
 }
 
-@@media (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 750px;
   }
@@ -138,6 +137,7 @@ header .hero p{
 header .hero img{
   display: block;
   margin: 3em auto 0;
+
 }
 
 /* BUTTONS */
