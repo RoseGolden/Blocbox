@@ -50,14 +50,13 @@
 }
 
 /* Media Quieries*/
-@media (mix-width: 100%){
-  .container {
-    width: 380px;
-  }
+img{
+  max-width:100%;
+  height: auto;
 }
 
 @media (min-width: 768px) {
-  .container {
+  .container{
     width: 750px;
   }
 }
@@ -137,6 +136,9 @@ header .hero p{
 header .hero img{
   display: block;
   margin: 3em auto 0;
+
+}
+@media max-width {
 
 }
 
