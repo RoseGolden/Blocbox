@@ -31,13 +31,13 @@
    position: relative;
 
  }
- .container: before,
- .container: after{
+ .container:before,
+ .container:after{
    content: " ";
    display: table;
  }
 
- .container: after {
+ .container:after {
    clear: both;
  }
 
@@ -70,7 +70,7 @@ img{
   .one-third {
     width: 29.33333%;
   }
-  .one-fouth {
+  .one-fourth {
     width: 21%;
   }
 }
@@ -154,34 +154,34 @@ header .hero img{
   box-shadow: 0px 2px 0px 0px #B7A64E;
 }
 
-/* BENIFITS */
+/* BENEFITS */
 
-.benifits {
+.benefits {
   text-align: center;
   display: block;
   position: relative;
 }
-.benifits ul {
+.benefits ul {
   margin: 0 auto;
   padding: 4em 0;
 }
-.benifits ul li {
+.benefits ul li {
   list-style-type: none;
   display: inline-block;
 }
-.benifits i {
+.benefits i {
   color:#3498DB;
   font-size: 60px;
   margin: 0;
   vertical-align: middle;
 }
-.benifits h2 {
+.benefits h2 {
   color:#3498DB;
 }
 
 /* PRICING */
 
-.pricicng {
+.pricing {
   /* background-image: */
     background: #34495E url("image/background-image.png") top center no-repeat;
     background-image: url("image/background-image.png") top center no-repeat, linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
@@ -202,13 +202,13 @@ header .hero img{
 .box {
   padding: 0 15px 15px;
   background:#FFFFFF;
-  box-shadow: 0px 2px 4px 0px rgba (0,0,0.20)
-  min-heigh: 439px;
+  box-shadow: 0px 2px 4px 0px rgba (0,0,0.20);
+  min-height: : 439px;
   position: relative;
   margin-top: 25px;
 }
 .box .middle {
-  min-hight: 485px;
+  min-height: 485px;
   margin-top: 0px;
 }
 .box h3 {
@@ -261,36 +261,36 @@ header .hero img{
 
 /* TESTIMONIAL*/
 
-.testimonails {
+.testimonials {
   padding:4em 0;
-  text-allign: center;
+  text-align: center;
 }
-.testimonails h2{
+.testimonials h2{
   color: #3498DB;
 }
-.testimonails ul li{
-  list-style-type: none;
+.testimonials ul li{
+  list-style-type:none;
 }
 .testimonials blockquote{
   color:#FFFFFF;
-   text-align: left;
-   font-style: italic;
+   text-align:left;
+   font-style:italic;
    background:#34495E;
    position: relative;
    padding:30px;
    width:auto;
    margin:0;
 }
-.testimonials blockquote{
-  top: 100%;
+.testimonials blockquote after{
+ top:100%;
  left: 13%;
- border: solid transparent;
+ border:solid transparent;
  content: " ";
  height: 0;
  width: 0;
- position: absolute;
- pointer-events: none;
- border-top-color: #34495E;
+ position:absolute;
+ pointer-events:none;
+ border-top-color:#34495E;
  border-width: 10px;
  margin-left: -10px;
 }
@@ -303,16 +303,24 @@ header .hero img{
    margin:20px 10px 0 0;
 }
 .testimonials p .name{
-  float: left;
-   display: inline-block;
+   float: left;
+   display:inline-block;
    text-align: left;
    font-size:13px;
    margin-top: 30px;
 }
 
+#second-test {
+  border-top: 20px solid;
+}
+
+#fourth-test {
+  border-top: 20px solid;
+}
+
 /* FOOTER */
 footer {
-  background-color: #34495E;
+   background-color: #34495E;
    background-image: linear-gradient(to top,
       #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
    color: #FFFFFF;
