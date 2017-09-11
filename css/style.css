@@ -366,3 +366,9 @@ footer .logo{
     padding: 2em 0 2em 1.5em;
   }
 }
+@media (min-width: 991px){
+footer .container{
+   width:100%;
+   height: 100%;
+   }
+}
