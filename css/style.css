@@ -573,3 +573,8 @@ footer .container{
     margin: 0 1% 25;
   }
 }
+
+/* PSEUDO CLASS */
+.left-nav a:active{
+  background-color: #2176FF;
+}
