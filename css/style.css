@@ -93,7 +93,7 @@ header nav {
 }
 header nav ul {
   display:inline;
-  text-allign: right;
+  text-align: right;
   float: right;
   margin: 0;
 }
@@ -123,8 +123,8 @@ header .hero {
   position: relative;
 }
 header .hero h1{
-  font-sixe: 48px;
-  fint-weight: normal;
+  font-size: 48px;
+  font-weight: normal;
   margin: 95px 0 0;
 }
 header .hero p{
@@ -213,10 +213,10 @@ header .hero img{
   text-transform: uppercase;
   background: #E2E2E2;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0.40)
-  let: 0;
+  left: 0;
   right: 0;
   top: 0;
-  text-allign: center;
+  text-align: center;
   margin: 0 -15px 20px;
   padding: 10px 0;
 }
@@ -228,10 +228,10 @@ header .hero img{
 }
 .box h4 span{
   font-size: 32px;
-  vertical-allign: top;
+  vertical-align: top;
 }
 .box h4 span .month{
-  font-family: "Varela Round",sans-serif;
+   font-family: "Varela Round",sans-serif;
    font-weight: 100;
    color: #888888;
    font-size: 20px;
@@ -239,7 +239,7 @@ header .hero img{
 }
 .box ul li {
   font-size: 18px;
-  margin-botton: 20px;
+  margin-bottom: 20px;
   font-weight: 100;
 }
 .box .btn{
@@ -251,7 +251,7 @@ header .hero img{
 .small {
   font-size: 12px;
   color: #FEFEFE;
-  line-hight: 15px;
+  line-height: 15px;
   font-style: italic;
 }
 
@@ -268,7 +268,7 @@ header .hero img{
   list-style-type:none;
 }
 .testimonials blockquote{
-  color:#FFFFFF;
+   color:#FFFFFF;
    text-align:left;
    font-style:italic;
    background:#34495E;
@@ -313,6 +313,8 @@ header .hero img{
 #fourth-test {
   margin-top: 20px;
 }
+
+
 
 
 /* FOOTER */
