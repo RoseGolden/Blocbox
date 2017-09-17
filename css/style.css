@@ -477,7 +477,7 @@ footer .container{
 .content .header > a{
   float: right;
 }
-.cotent-item{
+.content-item{
   width: 96%;
   margin: 0 2% 25px;
   float: left;
@@ -575,6 +575,6 @@ footer .container{
 }
 
 /* PSEUDO CLASS */
-.left-nav a:active{
-  background-color: #2176FF;
+.active {
+    background-color: #2176FF;
 }
