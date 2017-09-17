@@ -4,7 +4,7 @@
  }
  body {
    font-family: "Muli",sans-serif;
-   color:#FFFFFF;
+   color:#333333;
 
  }
  h1, h2, h3, h4, h5, h6 {
@@ -581,7 +581,7 @@ footer .container{
 }
 .item-box p{
   font-size: 14px;
-  color: #FFFFFF;
+  color: #333333;
   line-height: 18px;
   margin: 5px 0 0;
 }
