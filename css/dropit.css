@@ -27,13 +27,6 @@
 	  padding: 20px;
 	  margin: 20px 0 0;
 }
-.account-settings .menu-up .dropit .dropit-submenu{
-    position:absolute;
-    right: 0;
-    bottom: 100%;
-
-
-}
   .dropit .dropit-open .dropit-submenu {
     display: block;
     background: #FFFFFF;
@@ -64,4 +57,15 @@
     text-decoration: none;
     font-family: "Muli" sans-serif;
     font-weight:100;
+}
+.account-settings .menu-up .dropit .dropit-submenu{
+  position: absolute;
+  top: -100%;
+  right: 0; /* dropdown left or right */
+  z-index: 1000;
+  display: none;
+  min-width: 100px;
+  list-style: none;
+  padding: 20px;
+  margin: 20px 0 0;
 }
