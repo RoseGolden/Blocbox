@@ -32,7 +32,7 @@
 
  }
  .container:before,
- .container:after{
+ .container:after {
    content: " ";
    display: table;
  }
@@ -448,8 +448,6 @@ footer .container{
      display:none;
   }
 }
-
-/* EDIT */
 
 .left-nav .site-logo{
   padding: 20px 0;

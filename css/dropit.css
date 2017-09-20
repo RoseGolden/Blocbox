@@ -27,6 +27,11 @@
 	  padding: 20px;
 	  margin: 20px 0 0;
 }
+.menu-up.dropit .dropit-submenu {
+  top: auto;
+  right: 0;
+  bottom: 100%;
+}
   .dropit .dropit-open .dropit-submenu {
     display: block;
     background: #FFFFFF;
@@ -45,7 +50,16 @@
     top: -8px;
     right: 10px;
  }
+ .menu-up.dropit .dropit-open .dropit-submenu:after {
+  top: auto;
+  bottom: -8px;
+  border-width: 8px 8px 0;
+}
  .dropit .dropit-open .dropit-submenu li {
+    display: block;
+    margin-bottom: 20px;
+ }
+ .menu-up.dropit .dropit-open .dropit-submenu li {
     display: block;
     margin-bottom: 20px;
  }
@@ -57,15 +71,4 @@
     text-decoration: none;
     font-family: "Muli" sans-serif;
     font-weight:100;
-}
-.account-settings .menu-up .dropit .dropit-submenu{
-  position: absolute;
-  top: -100%;
-  right: 0; /* dropdown left or right */
-  z-index: 1000;
-  display: none;
-  min-width: 100px;
-  list-style: none;
-  padding: 20px;
-  margin: 20px 0 0;
 }
