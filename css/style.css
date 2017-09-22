@@ -19,7 +19,9 @@
    font-size:16px;
    line-height: 19px;
    font-weight: 100;
+
 }
+
 
 
  /* GRID*/
@@ -145,9 +147,9 @@ header .hero img{
   color: #FFFFFF;
   font-weight: 700;
   text-decoration: none;padding: 10px 30px;
-  background: #FFE66D;
-  border: 2px solid #FFE66D;
-  box-shadow: 0px 2px 0px 0px #B7A64E;
+  background: #17BEBB;
+  border: 2px solid #17BEBB;
+  box-shadow: 0px 2px 0px 0px #0E7573;
 }
 
 /* BENEFITS */
@@ -173,6 +175,12 @@ header .hero img{
 }
 .benefits h2 {
   color:#3498DB;
+}
+.benefits p{
+  width: 275px;
+  display: inline-block;
+  margin-bottom: 0;
+
 }
 
 /* PRICING */
@@ -318,6 +326,9 @@ header .hero img{
 
 #fourth-test {
   margin-top: 20px;
+}
+.one-fourth{
+  margin-top: 10px;
 }
 
 /* EXTRA INFO */
@@ -501,6 +512,9 @@ footer .container{
   text-align: center;
   margin-right: 8px;
 }
+.fa-cog{
+  margin-bottom: 10px
+}
 
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings{
@@ -656,6 +670,13 @@ footer .container{
     width: 23%;
     margin: 0 1% 25;
   }
+}
+@media (min-width: 459px){
+  .extra-info {
+    text-align: center;
+    padding-left:20px;
+  }
+
 }
 
 /* PSEUDO CLASS */
